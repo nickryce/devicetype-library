@@ -1,0 +1,207 @@
+
+---
+manufacturer: Smartoptics
+model: DCP-R-9D-CS
+slug: so-ds-dcp-r-9d-cs
+part_number: so-ds-dcp-r-9d-cs
+u_height: 1
+is_full_depth: true
+comments: 1RU 19", 9 Degree ROADM + OSC + Mon-port, 192.1 to 196.0THz
+is_powered: true
+console-ports:
+  - name: console0
+    type: rj-45
+power-ports:
+  - name: PSU1
+    type: iec-60320-c14
+  - name: PSU2
+    type: iec-60320-c14
+front-ports:
+  - name: C21
+    type: lc
+    rear_port: LINE
+    rear_port_position: 1
+  - name: C22
+    type: lc
+    rear_port: LINE
+    rear_port_position: 2
+  - name: C23
+    type: lc
+    rear_port: LINE
+    rear_port_position: 3
+  - name: C24
+    type: lc
+    rear_port: LINE
+    rear_port_position: 4
+  - name: C25
+    type: lc
+    rear_port: LINE
+    rear_port_position: 5
+  - name: C26
+    type: lc
+    rear_port: LINE
+    rear_port_position: 6
+  - name: C27
+    type: lc
+    rear_port: LINE
+    rear_port_position: 7
+  - name: C28
+    type: lc
+    rear_port: LINE
+    rear_port_position: 8
+  - name: C29
+    type: lc
+    rear_port: LINE
+    rear_port_position: 9
+  - name: C30
+    type: lc
+    rear_port: LINE
+    rear_port_position: 10
+  - name: C31
+    type: lc
+    rear_port: LINE
+    rear_port_position: 11
+  - name: C32
+    type: lc
+    rear_port: LINE
+    rear_port_position: 12
+  - name: C33
+    type: lc
+    rear_port: LINE
+    rear_port_position: 13
+  - name: C34
+    type: lc
+    rear_port: LINE
+    rear_port_position: 14
+  - name: C35
+    type: lc
+    rear_port: LINE
+    rear_port_position: 15
+  - name: C36
+    type: lc
+    rear_port: LINE
+    rear_port_position: 16
+  - name: C37
+    type: lc
+    rear_port: LINE
+    rear_port_position: 17
+  - name: C38
+    type: lc
+    rear_port: LINE
+    rear_port_position: 18
+  - name: C39
+    type: lc
+    rear_port: LINE
+    rear_port_position: 19
+  - name: C40
+    type: lc
+    rear_port: LINE
+    rear_port_position: 20
+  - name: C41
+    type: lc
+    rear_port: LINE
+    rear_port_position: 21
+  - name: C42
+    type: lc
+    rear_port: LINE
+    rear_port_position: 22
+  - name: C43
+    type: lc
+    rear_port: LINE
+    rear_port_position: 23
+  - name: C44
+    type: lc
+    rear_port: LINE
+    rear_port_position: 24
+  - name: C45
+    type: lc
+    rear_port: LINE
+    rear_port_position: 25
+  - name: C46
+    type: lc
+    rear_port: LINE
+    rear_port_position: 26
+  - name: C47
+    type: lc
+    rear_port: LINE
+    rear_port_position: 27
+  - name: C48
+    type: lc
+    rear_port: LINE
+    rear_port_position: 28
+  - name: C49
+    type: lc
+    rear_port: LINE
+    rear_port_position: 29
+  - name: C50
+    type: lc
+    rear_port: LINE
+    rear_port_position: 30
+  - name: C51
+    type: lc
+    rear_port: LINE
+    rear_port_position: 31
+  - name: C52
+    type: lc
+    rear_port: LINE
+    rear_port_position: 32
+  - name: C53
+    type: lc
+    rear_port: LINE
+    rear_port_position: 33
+  - name: C54
+    type: lc
+    rear_port: LINE
+    rear_port_position: 34
+  - name: C55
+    type: lc
+    rear_port: LINE
+    rear_port_position: 35
+  - name: C56
+    type: lc
+    rear_port: LINE
+    rear_port_position: 36
+  - name: C57
+    type: lc
+    rear_port: LINE
+    rear_port_position: 37
+  - name: C58
+    type: lc
+    rear_port: LINE
+    rear_port_position: 38
+  - name: C59
+    type: lc
+    rear_port: LINE
+    rear_port_position: 39
+  - name: C60
+    type: lc
+    rear_port: LINE
+    rear_port_position: 40
+  - name: MON
+    type: lc
+    rear_port: LINE
+    rear_port_position: 41
+  - name: OSC
+    type: lc
+    rear_port: LINE
+    rear_port_position: 42
+rear-ports:
+  - name: LINE
+    type: lc
+    positions: 42
+interfaces:
+  - name: eth0
+    type: 1000base-t
+    mgmt_only: true
+  - name: eth1
+    type: 1000base-t
+    mgmt_only: true
+  - name: eth2
+    type: 1000base-t
+    mgmt_only: true
+  - name: eth3
+    type: 1000base-t
+    mgmt_only: true
+  - name: eth4
+    type: 1000base-x-sfp
+    mgmt_only: true
